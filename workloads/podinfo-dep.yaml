@@ -58,6 +58,8 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: "#ff00ff"
+        - name: TWEAK_IT
+          value: "secret"
         livenessProbe:
           httpGet:
             path: /healthz
